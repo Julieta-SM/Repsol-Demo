@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Repsol - Demo </title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  body { background-color: #fff7f7; font-family: Arial, Helvetica, sans-serif; color:#222; }
+  .logo-repsol { height: 45px; }
+  .nav-link.active { color: #ff5b5b !important; }
+  .hero-iframe { width: 100%; max-width: 900px; height: 380px; border: 0; border-radius: 6px; }
+  .energy-box { background: #85A0BB; color: #ffffff; border-radius: 12px; padding: 14px; box-shadow: 0 6px 18px rgba(0,0,0,0.12); }
+  .energy-box iframe { border-radius: 8px; display:block; width:100%; height:170px; border:0; background:#000; }
+  .energy-quote { margin-top:10px; font-size:0.95rem; font-weight:600; }
+  .content-left h3 { font-weight:700; }
+  .accordion-button { font-weight:600; }
+  footer .logo-repsol { height:40px; }
+  .subscribe-input { max-width: 520px; width:100%; }
+  @media (max-width: 768px){ .hero-iframe { height: 220px; } .energy-box iframe { height:150px; } }
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white border-bottom">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="C:\Users\julie\OneDrive\Documents\SENA\Diseño de página web\Imagenes\Captura de pantalla 2025-05-15 211104.png" class="logo-repsol" alt="Repsol">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navc">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navc">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Conócenos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Sostenibilidad</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Innovación</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Productos y Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Empleo</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO VIDEO -->
+<div class="container text-center my-4">
+  <iframe class="hero-iframe" src="https://www.youtube.com/embed/KWG54-oMg7k" allowfullscreen title="Pieza audiovisual de la estrategia digital"></iframe>
+</div>
+
+<!-- MAIN -->
+<div class="container my-5">
+  <div class="row gy-4">
+
+    <!-- LEFT -->
+    <div class="col-lg-7 content-left">
+
+      <h3>Creemos en la energía que nos ayuda a avanzar</h3>
+
+      <p style="text-align:justify;">Estamos aquí para explorar y descubrir las infinitas posibilidades de la energía para que todos podamos avanzar. Esta es la razón que nos mueve y el sentido de lo que hacemos. Porque en Repsol creemos que la energía también mueve a las personas. Por eso seguimos preguntándonos, explorando, buscando nuevas formas de avanzar. Sabemos que cuando cambiamos la mirada, descubrimos todo lo que aún es posible. Y estamos aquí para hacerlo realidad, contigo.</p>
+
+      <p><a class="btn btn-primary" href="#">Conocer más &gt;</a></p>
+
+      <div class="accordion" id="mainAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#acc1">Nuestra Compañía</button></h2>
+          <div id="acc1" class="accordion-collapse collapse show"><div class="accordion-body" style="text-align:justify;">Lo que somos y hacemos, desde la exploración de nuevas materias primas, hasta la comercialización de soluciones energéticas, tiene un propósito claro: acercar soluciones energéticas que impulsen el bienestar.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc2">Nuestra actividad</button></h2>
+          <div id="acc2" class="accordion-collapse collapse"><div class="accordion-body" style="text-align:justify;">Transformamos la energía con tecnología, innovación y eficiencia, para ponerla al servicio del día a día de las personas y del progreso de la sociedad.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc3">Dónde trabajamos</button></h2>
+          <div id="acc3" class="accordion-collapse collapse"><div class="accordion-body" style="text-align:justify;">Ya estamos en más de 20 países, con 7 complejos industriales en España, Portugal y Perú, más de 4.500 estaciones de servicio y oficinas de atención al cliente para acercar la energía a más de 24 millones de personas que confían en nosotros cada día.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#acc4">Plan Estratégico</button></h2>
+          <div id="acc4" class="accordion-collapse collapse"><div class="accordion-body" style="text-align:justify;">Nuestra sólida estrategia profundiza en una transición energética ambiciosa pero realista, invirtiendo en la transformación de nuestros complejos en polos multienergéticos y en una propuesta única que apuesta por la diversidad energética para seguir avanzando.</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="col-lg-5">
+      <div class="mb-3 energy-box">
+        <iframe src="https://www.youtube.com/embed/_IrzsIgxw40?rel=0" title="Video 1" allowfullscreen></iframe>
+        <div class="energy-quote">"Energía para competir al más alto nivel. Siempre"<br><small style="font-weight:400;">Isidre Esteve - Piloto Repsol</small></div>
+      </div>
+      <div class="mb-3 energy-box">
+        <iframe src="https://www.youtube.com/embed/iWx_eooEq-o?rel=0" title="Video 2" allowfullscreen></iframe>
+        <div class="energy-quote">"Energía para apostarlo todo a la interpretación y conseguir mucho más por el camino"<br><small style="font-weight:400;">Tony Acosta - Actriz</small></div>
+      </div>
+      <div class="mb-3 energy-box">
+        <iframe src="https://www.youtube.com/embed/8dO-c73ZW3o?rel=0" title="Video 3" allowfullscreen></iframe>
+        <div class="energy-quote">"Energía para lanzarme en solitario y sentirme más acompañado que nunca"<br><small style="font-weight:400;">Dany Fernández - Cantante</small></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- NEWSLETTER -->
+<div class="container text-center my-5">
+  <hr>
+  <h5>¡Suscríbete a nuestro Newsletter!</h5>
+  <p>¡No te quedes atrás! Únete a miles de personas que descubren cada mes nuevos contenidos sobre energía, tecnología y hogar.</p>
+  <div class="d-flex justify-content-center">
+    <input class="form-control subscribe-input me-2" type="email" placeholder="Tu correo electrónico...">
+    <button class="btn btn-primary">Suscribirse</button>
+  </div>
+  <hr>
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-white border-top py-4">
+  <div class="container text-center">
+    <img src="C:\Users\julie\OneDrive\Documents\SENA\Diseño de página web\Imagenes\Captura de pantalla 2025-05-15 211104.png" class="logo-repsol" alt="Repsol">
+    <div> sacportal@repsol.com &nbsp; | &nbsp; 901 10 15 20 </div>
